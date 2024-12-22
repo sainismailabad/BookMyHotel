@@ -117,3 +117,30 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+.download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; /* Button color */
+    color: white; /* Text color */
+    height: 50px; /* Button height */
+    width: 200px; /* Button width */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.download-button:hover {
+    background-color: darkgreen; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.download-button:active {
+    transform: translateY(0); /* Return to normal on click */
+}
+```
+  
+  
+  
+}
