@@ -1,0 +1,235 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+h1, h2 {
+  color: #004aad;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: disc;
+  margin: 10px 20px;
+}
+
+a {
+  color: #004aad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+.header {
+  background: linear-gradient(90deg, #004aad, #0073e6);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+}
+
+/* About Section */
+.about-app {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.image-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.image-slider img {
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Download Section */
+.download {
+  text-align: center;
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#downloadButton {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#downloadButton:hover {
+  background-color: #002f6c;
+}
+
+/* Footer */
+.footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-content a {
+  color: #f0f8ff;
+}
+h1{
+  color:white;
+}
+.contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.whatsapp-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57
+  color:white;
+}
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #007bff, #6c63ff);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header .logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+}
+
+.about-app, .download, .contact {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Slider */
+.image-slider img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Download Section */
+.download .download-link img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.download .download-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Contact Section */
+.contact a.whatsapp-button img {
+  width: 25px;
+  vertical-align: middle;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background: #6c63ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  color: #ffdb4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
